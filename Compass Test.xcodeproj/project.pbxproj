@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C429FB72C609D0600053362 /* Compass_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FB42C609D0600053362 /* Compass_TestUITests.swift */; };
+		8C429FB82C609D0600053362 /* Compass_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FB52C609D0600053362 /* Compass_TestUITestsLaunchTests.swift */; };
+		8C429FBA2C609E2900053362 /* MainDependenciesResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FB92C609E2900053362 /* MainDependenciesResolverTests.swift */; };
+		8C429FBC2C60A0CF00053362 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FBB2C60A0CF00053362 /* Mocks.swift */; };
+		8C429FBE2C60A2B700053362 /* Every10thCharacterRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FBD2C60A2B700053362 /* Every10thCharacterRepositoryTests.swift */; };
+		8C429FC02C61106B00053362 /* WordCountRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FBF2C61106B00053362 /* WordCountRepositoryTests.swift */; };
+		8C429FC22C6121A700053362 /* Every10thCharacterUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FC12C6121A700053362 /* Every10thCharacterUseCaseTests.swift */; };
+		8C429FC42C6123C200053362 /* WordCountUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FC32C6123C200053362 /* WordCountUseCaseTests.swift */; };
+		8C429FC62C61261200053362 /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C429FC52C61261200053362 /* MainViewModelTests.swift */; };
 		8CB2AFCC2C602F2A00BEF75F /* Compass_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFCB2C602F2A00BEF75F /* Compass_TestApp.swift */; };
 		8CB2AFCE2C602F2A00BEF75F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFCD2C602F2A00BEF75F /* ContentView.swift */; };
 		8CB2AFD02C602F2B00BEF75F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB2AFCF2C602F2B00BEF75F /* Assets.xcassets */; };
 		8CB2AFD42C602F2B00BEF75F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB2AFD32C602F2B00BEF75F /* Preview Assets.xcassets */; };
-		8CB2AFDE2C602F2C00BEF75F /* Compass_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFDD2C602F2C00BEF75F /* Compass_TestTests.swift */; };
-		8CB2AFE82C602F2C00BEF75F /* Compass_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFE72C602F2C00BEF75F /* Compass_TestUITests.swift */; };
-		8CB2AFEA2C602F2C00BEF75F /* Compass_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFE92C602F2C00BEF75F /* Compass_TestUITestsLaunchTests.swift */; };
+		8CB2AFDE2C602F2C00BEF75F /* DefaultSchedulerProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2AFDD2C602F2C00BEF75F /* DefaultSchedulerProviderTests.swift */; };
+		8CB2B0152C6039A300BEF75F /* DataLayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0142C6039A300BEF75F /* DataLayerProtocols.swift */; };
+		8CB2B0172C6039D700BEF75F /* NetworkingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0162C6039D700BEF75F /* NetworkingDataSource.swift */; };
+		8CB2B0192C603A2400BEF75F /* InMemoryCacheDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0182C603A2400BEF75F /* InMemoryCacheDataSource.swift */; };
+		8CB2B01B2C603C2000BEF75F /* Every10thCharacterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B01A2C603C2000BEF75F /* Every10thCharacterDTO.swift */; };
+		8CB2B01D2C603C3A00BEF75F /* WordCountDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B01C2C603C3A00BEF75F /* WordCountDTO.swift */; };
+		8CB2B0212C603D0700BEF75F /* Every10thCharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0202C603D0700BEF75F /* Every10thCharacterModel.swift */; };
+		8CB2B0232C603D1900BEF75F /* WordCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0222C603D1900BEF75F /* WordCountModel.swift */; };
+		8CB2B02C2C60529400BEF75F /* Every10thCharacterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B02B2C60529400BEF75F /* Every10thCharacterRepository.swift */; };
+		8CB2B0302C6057CB00BEF75F /* WordCountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B02F2C6057CB00BEF75F /* WordCountRepository.swift */; };
+		8CB2B0322C605D8500BEF75F /* DataLayerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0312C605D8500BEF75F /* DataLayerError.swift */; };
+		8CB2B0342C60607000BEF75F /* UserDefaultsCacheDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0332C60607000BEF75F /* UserDefaultsCacheDataSource.swift */; };
+		8CB2B0372C60639700BEF75F /* Every10thCharacterUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0362C60639700BEF75F /* Every10thCharacterUseCase.swift */; };
+		8CB2B0392C6063B800BEF75F /* DomainLayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0382C6063B800BEF75F /* DomainLayerProtocols.swift */; };
+		8CB2B03D2C6064F900BEF75F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B03C2C6064F900BEF75F /* MainViewModel.swift */; };
+		8CB2B0432C60792C00BEF75F /* WordCountUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0422C60792C00BEF75F /* WordCountUseCase.swift */; };
+		8CB2B0462C608C1F00BEF75F /* CoreProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0452C608C1F00BEF75F /* CoreProtocols.swift */; };
+		8CB2B0482C608D2C00BEF75F /* DefaultSchedulerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0472C608D2C00BEF75F /* DefaultSchedulerProvider.swift */; };
+		8CB2B04A2C60944300BEF75F /* MainDependenciesResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2B0492C60944300BEF75F /* MainDependenciesResolver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C429FB42C609D0600053362 /* Compass_TestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compass_TestUITests.swift; sourceTree = "<group>"; };
+		8C429FB52C609D0600053362 /* Compass_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compass_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C429FB92C609E2900053362 /* MainDependenciesResolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDependenciesResolverTests.swift; sourceTree = "<group>"; };
+		8C429FBB2C60A0CF00053362 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		8C429FBD2C60A2B700053362 /* Every10thCharacterRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterRepositoryTests.swift; sourceTree = "<group>"; };
+		8C429FBF2C61106B00053362 /* WordCountRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountRepositoryTests.swift; sourceTree = "<group>"; };
+		8C429FC12C6121A700053362 /* Every10thCharacterUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterUseCaseTests.swift; sourceTree = "<group>"; };
+		8C429FC32C6123C200053362 /* WordCountUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountUseCaseTests.swift; sourceTree = "<group>"; };
+		8C429FC52C61261200053362 /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
 		8CB2AFC82C602F2A00BEF75F /* Compass Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compass Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB2AFCB2C602F2A00BEF75F /* Compass_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_TestApp.swift; sourceTree = "<group>"; };
 		8CB2AFCD2C602F2A00BEF75F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +75,26 @@
 		8CB2AFD12C602F2B00BEF75F /* Compass_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Compass_Test.entitlements; sourceTree = "<group>"; };
 		8CB2AFD32C602F2B00BEF75F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CB2AFD92C602F2B00BEF75F /* Compass TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compass TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CB2AFDD2C602F2C00BEF75F /* Compass_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_TestTests.swift; sourceTree = "<group>"; };
+		8CB2AFDD2C602F2C00BEF75F /* DefaultSchedulerProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSchedulerProviderTests.swift; sourceTree = "<group>"; };
 		8CB2AFE32C602F2C00BEF75F /* Compass TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Compass TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CB2AFE72C602F2C00BEF75F /* Compass_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_TestUITests.swift; sourceTree = "<group>"; };
-		8CB2AFE92C602F2C00BEF75F /* Compass_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compass_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CB2B0142C6039A300BEF75F /* DataLayerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayerProtocols.swift; sourceTree = "<group>"; };
+		8CB2B0162C6039D700BEF75F /* NetworkingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingDataSource.swift; sourceTree = "<group>"; };
+		8CB2B0182C603A2400BEF75F /* InMemoryCacheDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCacheDataSource.swift; sourceTree = "<group>"; };
+		8CB2B01A2C603C2000BEF75F /* Every10thCharacterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterDTO.swift; sourceTree = "<group>"; };
+		8CB2B01C2C603C3A00BEF75F /* WordCountDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountDTO.swift; sourceTree = "<group>"; };
+		8CB2B0202C603D0700BEF75F /* Every10thCharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterModel.swift; sourceTree = "<group>"; };
+		8CB2B0222C603D1900BEF75F /* WordCountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountModel.swift; sourceTree = "<group>"; };
+		8CB2B02B2C60529400BEF75F /* Every10thCharacterRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterRepository.swift; sourceTree = "<group>"; };
+		8CB2B02F2C6057CB00BEF75F /* WordCountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountRepository.swift; sourceTree = "<group>"; };
+		8CB2B0312C605D8500BEF75F /* DataLayerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLayerError.swift; sourceTree = "<group>"; };
+		8CB2B0332C60607000BEF75F /* UserDefaultsCacheDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCacheDataSource.swift; sourceTree = "<group>"; };
+		8CB2B0362C60639700BEF75F /* Every10thCharacterUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Every10thCharacterUseCase.swift; sourceTree = "<group>"; };
+		8CB2B0382C6063B800BEF75F /* DomainLayerProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainLayerProtocols.swift; sourceTree = "<group>"; };
+		8CB2B03C2C6064F900BEF75F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8CB2B0422C60792C00BEF75F /* WordCountUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCountUseCase.swift; sourceTree = "<group>"; };
+		8CB2B0452C608C1F00BEF75F /* CoreProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreProtocols.swift; sourceTree = "<group>"; };
+		8CB2B0472C608D2C00BEF75F /* DefaultSchedulerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSchedulerProvider.swift; sourceTree = "<group>"; };
+		8CB2B0492C60944300BEF75F /* MainDependenciesResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDependenciesResolver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +122,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C429FB62C609D0600053362 /* Compass TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C429FB42C609D0600053362 /* Compass_TestUITests.swift */,
+				8C429FB52C609D0600053362 /* Compass_TestUITestsLaunchTests.swift */,
+			);
+			path = "Compass TestUITests";
+			sourceTree = SOURCE_ROOT;
+		};
 		8CB2AFBF2C602F2A00BEF75F = {
 			isa = PBXGroup;
 			children = (
 				8CB2AFCA2C602F2A00BEF75F /* Compass Test */,
 				8CB2AFDC2C602F2C00BEF75F /* Compass TestTests */,
-				8CB2AFE62C602F2C00BEF75F /* Compass TestUITests */,
+				8C429FB62C609D0600053362 /* Compass TestUITests */,
 				8CB2AFC92C602F2A00BEF75F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				8CB2AFCB2C602F2A00BEF75F /* Compass_TestApp.swift */,
-				8CB2AFCD2C602F2A00BEF75F /* ContentView.swift */,
+				8CB2B0442C608C1100BEF75F /* Core */,
+				8CB2AFF72C602F7500BEF75F /* DataLayer */,
+				8CB2B01E2C603CEE00BEF75F /* DomainLayer */,
+				8CB2B03A2C6064D800BEF75F /* PresentationLayer */,
 				8CB2AFCF2C602F2B00BEF75F /* Assets.xcassets */,
 				8CB2AFD12C602F2B00BEF75F /* Compass_Test.entitlements */,
 				8CB2AFD22C602F2B00BEF75F /* Preview Content */,
@@ -115,18 +177,119 @@
 		8CB2AFDC2C602F2C00BEF75F /* Compass TestTests */ = {
 			isa = PBXGroup;
 			children = (
-				8CB2AFDD2C602F2C00BEF75F /* Compass_TestTests.swift */,
+				8C429FBB2C60A0CF00053362 /* Mocks.swift */,
+				8CB2AFDD2C602F2C00BEF75F /* DefaultSchedulerProviderTests.swift */,
+				8C429FB92C609E2900053362 /* MainDependenciesResolverTests.swift */,
+				8C429FBD2C60A2B700053362 /* Every10thCharacterRepositoryTests.swift */,
+				8C429FBF2C61106B00053362 /* WordCountRepositoryTests.swift */,
+				8C429FC12C6121A700053362 /* Every10thCharacterUseCaseTests.swift */,
+				8C429FC32C6123C200053362 /* WordCountUseCaseTests.swift */,
+				8C429FC52C61261200053362 /* MainViewModelTests.swift */,
 			);
 			path = "Compass TestTests";
 			sourceTree = "<group>";
 		};
-		8CB2AFE62C602F2C00BEF75F /* Compass TestUITests */ = {
+		8CB2AFF62C602F6300BEF75F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8CB2AFE72C602F2C00BEF75F /* Compass_TestUITests.swift */,
-				8CB2AFE92C602F2C00BEF75F /* Compass_TestUITestsLaunchTests.swift */,
+				8CB2AFCD2C602F2A00BEF75F /* ContentView.swift */,
 			);
-			path = "Compass TestUITests";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8CB2AFF72C602F7500BEF75F /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0142C6039A300BEF75F /* DataLayerProtocols.swift */,
+				8CB2B0102C60395700BEF75F /* DataSources */,
+				8CB2B0112C60396000BEF75F /* DTOs */,
+				8CB2B0132C60397000BEF75F /* Repositories */,
+				8CB2B0312C605D8500BEF75F /* DataLayerError.swift */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		8CB2B0102C60395700BEF75F /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0162C6039D700BEF75F /* NetworkingDataSource.swift */,
+				8CB2B0182C603A2400BEF75F /* InMemoryCacheDataSource.swift */,
+				8CB2B0332C60607000BEF75F /* UserDefaultsCacheDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		8CB2B0112C60396000BEF75F /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B01A2C603C2000BEF75F /* Every10thCharacterDTO.swift */,
+				8CB2B01C2C603C3A00BEF75F /* WordCountDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		8CB2B0132C60397000BEF75F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B02B2C60529400BEF75F /* Every10thCharacterRepository.swift */,
+				8CB2B02F2C6057CB00BEF75F /* WordCountRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		8CB2B01E2C603CEE00BEF75F /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0382C6063B800BEF75F /* DomainLayerProtocols.swift */,
+				8CB2B0352C60637700BEF75F /* UseCases */,
+				8CB2B01F2C603CFD00BEF75F /* Models */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		8CB2B01F2C603CFD00BEF75F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0202C603D0700BEF75F /* Every10thCharacterModel.swift */,
+				8CB2B0222C603D1900BEF75F /* WordCountModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CB2B0352C60637700BEF75F /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0362C60639700BEF75F /* Every10thCharacterUseCase.swift */,
+				8CB2B0422C60792C00BEF75F /* WordCountUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		8CB2B03A2C6064D800BEF75F /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B03B2C6064ED00BEF75F /* ViewModels */,
+				8CB2AFF62C602F6300BEF75F /* Views */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		8CB2B03B2C6064ED00BEF75F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B03C2C6064F900BEF75F /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CB2B0442C608C1100BEF75F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8CB2B0452C608C1F00BEF75F /* CoreProtocols.swift */,
+				8CB2B0472C608D2C00BEF75F /* DefaultSchedulerProvider.swift */,
+				8CB2B0492C60944300BEF75F /* MainDependenciesResolver.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +367,6 @@
 					};
 					8CB2AFE22C602F2C00BEF75F = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 8CB2AFC72C602F2A00BEF75F;
 					};
 				};
 			};
@@ -259,8 +421,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB2B0322C605D8500BEF75F /* DataLayerError.swift in Sources */,
+				8CB2B0172C6039D700BEF75F /* NetworkingDataSource.swift in Sources */,
+				8CB2B0302C6057CB00BEF75F /* WordCountRepository.swift in Sources */,
+				8CB2B0342C60607000BEF75F /* UserDefaultsCacheDataSource.swift in Sources */,
+				8CB2B0192C603A2400BEF75F /* InMemoryCacheDataSource.swift in Sources */,
+				8CB2B01B2C603C2000BEF75F /* Every10thCharacterDTO.swift in Sources */,
+				8CB2B0432C60792C00BEF75F /* WordCountUseCase.swift in Sources */,
+				8CB2B0482C608D2C00BEF75F /* DefaultSchedulerProvider.swift in Sources */,
+				8CB2B0462C608C1F00BEF75F /* CoreProtocols.swift in Sources */,
+				8CB2B04A2C60944300BEF75F /* MainDependenciesResolver.swift in Sources */,
+				8CB2B01D2C603C3A00BEF75F /* WordCountDTO.swift in Sources */,
+				8CB2B0232C603D1900BEF75F /* WordCountModel.swift in Sources */,
+				8CB2B02C2C60529400BEF75F /* Every10thCharacterRepository.swift in Sources */,
+				8CB2B0392C6063B800BEF75F /* DomainLayerProtocols.swift in Sources */,
+				8CB2B0372C60639700BEF75F /* Every10thCharacterUseCase.swift in Sources */,
 				8CB2AFCE2C602F2A00BEF75F /* ContentView.swift in Sources */,
 				8CB2AFCC2C602F2A00BEF75F /* Compass_TestApp.swift in Sources */,
+				8CB2B0212C603D0700BEF75F /* Every10thCharacterModel.swift in Sources */,
+				8CB2B0152C6039A300BEF75F /* DataLayerProtocols.swift in Sources */,
+				8CB2B03D2C6064F900BEF75F /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +448,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB2AFDE2C602F2C00BEF75F /* Compass_TestTests.swift in Sources */,
+				8CB2AFDE2C602F2C00BEF75F /* DefaultSchedulerProviderTests.swift in Sources */,
+				8C429FBA2C609E2900053362 /* MainDependenciesResolverTests.swift in Sources */,
+				8C429FC22C6121A700053362 /* Every10thCharacterUseCaseTests.swift in Sources */,
+				8C429FBE2C60A2B700053362 /* Every10thCharacterRepositoryTests.swift in Sources */,
+				8C429FBC2C60A0CF00053362 /* Mocks.swift in Sources */,
+				8C429FC42C6123C200053362 /* WordCountUseCaseTests.swift in Sources */,
+				8C429FC02C61106B00053362 /* WordCountRepositoryTests.swift in Sources */,
+				8C429FC62C61261200053362 /* MainViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CB2AFE82C602F2C00BEF75F /* Compass_TestUITests.swift in Sources */,
-				8CB2AFEA2C602F2C00BEF75F /* Compass_TestUITestsLaunchTests.swift in Sources */,
+				8C429FB72C609D0600053362 /* Compass_TestUITests.swift in Sources */,
+				8C429FB82C609D0600053362 /* Compass_TestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +607,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Compass Test/Preview Content\"";
+				DEVELOPMENT_TEAM = JDVFZ9SL88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -456,6 +644,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Compass Test/Preview Content\"";
+				DEVELOPMENT_TEAM = JDVFZ9SL88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -539,12 +728,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martincrespi.Compass-TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Compass Test";
 			};
 			name = Debug;
 		};
@@ -560,12 +749,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.martincrespi.Compass-TestUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Compass Test";
 			};
 			name = Release;
 		};
